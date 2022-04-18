@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EstudianteModule } from './estudiante/estudiante.module';
+import { EstudentModule } from './estudiante/estudent.module';
 
 
 @NgModule({
@@ -13,7 +13,7 @@ import { EstudianteModule } from './estudiante/estudiante.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    EstudianteModule
+    EstudentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
