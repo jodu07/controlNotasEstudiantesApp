@@ -1,9 +1,9 @@
 export interface Product {
-    id:string;
+    id?:string;
     code?:string;
-    name:string;
+    name?:string;
     description?:string;
-    price:number;
+    price?:number;
     quantity?:number;
     inventoryStatus?:string;
     category?:string;
