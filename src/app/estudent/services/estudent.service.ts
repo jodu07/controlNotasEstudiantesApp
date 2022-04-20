@@ -14,10 +14,9 @@ export class EstudentService {
 
   //get jugadores
   getPlayers():Observable<Estudent>{
-    const url = `${this.api}/api/estudent`;  
+    const url = `${this.api}/api/estudents`;  
     return this.http.get<Estudent>(url);
   }
-  
 
 
 }

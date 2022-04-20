@@ -20,16 +20,15 @@
               <th scope="col">Matemáticas</th>
               <th scope="col">Física</th>
               <th scope="col">Sociales</th>
-              <th scope="col">Química</th>         
-              <th scope="col">Pais</th>
+              <th scope="col">Química</th>                   
               <th scope="col"><i class="fas fa-edit"></i>Editar</th>   
               <th scope="col"><i class="fas fa-trash-alt"></i>Eliminar</th>            
             </tr>
       </thead>
-      <tbody>
-        <tr>
-          <th>fff</th>            
-          <td>fdfdfd</td>
+      <tbody *ngFor="let estudent of listEstudents">
+        <tr>          
+          <th>{{estudent.idEstudent}} </th>            
+          <td>{{estudent.name}} </td>
           <td>ddd</td>
           <td>ffdfg</td>
           <td>ddd</td>
