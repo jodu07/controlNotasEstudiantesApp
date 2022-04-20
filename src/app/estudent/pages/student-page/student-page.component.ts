@@ -9,7 +9,7 @@ import { Nota, Student } from '../../interface/student.interface';
 })
 export class StudentPageComponent implements OnInit {
 
-  listEstudents: Student[]=[];
+  listStudents: Student[]=[];
 
   listNotas: Nota[]=[];
 
@@ -19,7 +19,7 @@ export class StudentPageComponent implements OnInit {
     this._estudenService.getPlayers()
     .subscribe(datos =>{
       console.log(datos);
-      this.listEstudents = <any>datos;
+      this.listStudents = <any>datos;
     })
   }
 

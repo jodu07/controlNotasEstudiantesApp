@@ -12,30 +12,7 @@
 
   <div class="container">
 
-    <table class="table">
-      <thead class="table-dark">
-          <tr>
-              <th scope="col">Id</th>
-              <th scope="col">Nombre1</th>
-              <th scope="col">Matemáticas</th>
-              <th scope="col">Física</th>
-              <th scope="col">Sociales</th>
-              <th scope="col">Química</th>                   
-              <th scope="col"><i class="fas fa-edit"></i>Editar</th>   
-              <th scope="col"><i class="fas fa-trash-alt"></i>Eliminar</th>            
-            </tr>
-      </thead>
-      <tbody *ngFor="let nota of listNotas">
-        <tr>          
-          <th>h </th>            
-          <td>{{nota.student}} </td>
-          <td>{{nota.qualification}} </td>
-          <td>5</td>
-          <td>5</td>
-          <td>5</td>    
-        </tr>                
-      </tbody>
-    </table>
+    <app-student-table [listStudents]="listStudents"></app-student-table>
 
   </div>
 

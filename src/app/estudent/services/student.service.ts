@@ -23,7 +23,4 @@ export class StudentService {
     return this.http.get<Nota>(url);
   }
 
-
-
-
 }
