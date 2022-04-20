@@ -1,7 +1,6 @@
 header{
     background: rgb(193, 216, 190);
-    color: black;
-   
+    color: black;   
 }
 
 th{
@@ -11,3 +10,4 @@ th{
 td{
     text-align: center;
 }
+

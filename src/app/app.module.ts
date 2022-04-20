@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EstudentModule } from './estudent/estudent.module';
+import { StudentModule } from './estudent/Student.module';
 import { SharedModule } from './shared/shared.module';
 
 
@@ -15,7 +15,7 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    EstudentModule,
+    StudentModule,
     SharedModule,
     HttpClientModule
   ],
