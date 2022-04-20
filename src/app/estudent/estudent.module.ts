@@ -9,7 +9,7 @@ import { EstudentPageComponent } from './pages/estudent-page/estudent-page.compo
     EstudentPageComponent
   ],
   imports: [
-    CommonModule
+    CommonModule  
   ],
   exports: [
     EstudentPageComponent
