@@ -4,7 +4,6 @@ export interface Student{
     name: string;
 }
 
-
 export interface Nota{
     student: number;
     course: number;
