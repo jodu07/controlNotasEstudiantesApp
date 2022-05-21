@@ -32,7 +32,6 @@ export class StudentPageComponent implements OnInit {
     )
   }
 
-
   ngOnInit(): void {
     this.listarEstudents(),
     this.notas();
